@@ -1,5 +1,9 @@
 
-export default {
-  projectName: "House Hunting Nairobi",
-  description: "A web app for finding houses to rent in Nairobi, Kenya."
-};
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+});
+
+
